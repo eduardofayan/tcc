@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+#banner{
+    text-align: center;
+}
+
+#logo{
+    text-align: center;
+    padding: 0;
+    width: 50%;
+}
+
+
+#menu-p{
+    text-align: center;
+    list-style: none;
+    padding: 0;
+    background-color: rgb(176, 224, 230);
+    margin: 0;
+
+}
+
+#menu-p li {
+    margin: 0 50px;
+    display: inline;
+}
+
+
+
+#menu-p li a {
+    color: black;
+    padding: 20px 10px;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#menu-p li a:hover {
+    color: orange;
+    text-decoration: unset;
+}
+
+.corpo{
+    background-color: black;
+}
+
+.container{
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+img{
+    width: 500px;
+    padding: 30px 40px;
+    margin: 20px;
+}
+
+.sub-container{
+    text-align: left;
+    justify-content: space-evenly;
+    vertical-align: top;
+    padding: 50px;
+}
+
+p, h2{
+    color: white;
+    margin-top: 20px 0;
+    margin: auto;
+    justify-content:flex-start;
+    text-align: left;
+}
+
+.corpo-dois{
+    background-color: orange;
+}
+
+#img-prof{
+    width: 500px;
+    padding: 30px 60px;
+    margin: 0 60px 0 0;
+}
+
+.titulo-um, .texto-um{
+    color: white;
+    margin-top: 20px 0;
+    margin: 0 0 0 60px;
+}
+
+.playlist{
+    text-align: center;
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+
+}
+.playlist li{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1%;
+    padding: 30px;
+    box-sizing: border-box;
+    background: orange;
+    border: 2px black solid;
+    border-radius: 10px 20px 30px 40px;
+}
+
+.playlist h2{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    color: black;
+    margin: auto;
+    vertical-align: top;
+}
+
+.imagens{
+    text-align: center;
+    margin: auto;
+    width: 100%;
+}
+
+.duracao{
+    color: black;
+    font-size: 18px;
+}
+
+.periodo{
+    text-align: center;
+    margin: auto;
+    color: black;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.playlist li:hover{
+    border-color:  rgb(176, 224, 230);
+}
+
+.playlist li:active{
+    border-color: darkblue;
+}
+
+.playlist li:hover h2{
+    font-size: 21px;
+}
+
+footer{
+    text-align: center;
+    background: rgb(176, 224, 230);
+    padding: 40px 0;
+}
+
+.texto-rodape{
+    padding: 0 50px;
+    text-align: center;
+    font-size: 15px;
+    color: black;
+}
+
+form{
+    margin: 40px 0;
+}
+
+form label, form legend, p{
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+.input-padrao{
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+
+p{
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+.checkbox{
+    margin: 20px 0;
+}
+
+.enviar{
+    width: 40%;
+    padding: 15px 0;
+    background: orange;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 1.5s all;
+}
+.enviar:hover{
+    background: darkgreen;
+    transform: scale(1.2);
+}
+
+table{
+    margin: 20px 0 40px;
+}
+
+thead{
+    background: gray;
+    color: white;
+    font-weight: bold;
+}
+
+td, th{
+    border: 1px solid black;
+    padding: 8px 15px;
+}
